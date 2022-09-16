@@ -7,42 +7,74 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>TeamCodingLizards</title>
+    <title>YouTube Creators</title>
 </head>
 
 
 <body>
-    <div class="tile is-ancestor">
-    <div class="tile is-vertical is-8">
-      <div class="tile">
-        <div class="tile is-parent is-horizontal is-12">
-          <article class="tile is-child notification is-info">
-            
-            <p1 class="title">Search for a YouTuber Here!</p1>
 
-            <div class="field has-addons" class= "title is-child notifcation is-warning" >
-              <div class="control">
-                <input class="input" type="text" placeholder="Search">
-              </div>
-              <div class="control"></div>
-                  <button class="button-33" role="button">Search</button>
-              </article>
-            </div>
-        </div>
-      </video>
-      <iframe src="https://www.youtube.com/embed/PFrIpSJhdQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</section>
-            </figure>
-          </article>
-        </div>
+<!--Header-->
+  <header>
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+  </header>
+
+
+  <section class="section">
+  <!--Tiles will go here-->
+  <div class="tile is-ancestor">
+      <div class="tile is-vertical">
+
         <div class="tile is-parent">
-          <article class="tile is-child notification is-info">
-            <div class="content">
-              <p class="title">Wikipedia</p>
-              <div class="content">
-                <!-- Content -->
-    </section>
+
+
+        <!--Search bar and button-->
+          <div class="tile is-child box has-background-white-ter shadow border">
+            <h1 class="title">Search for a YouTuber Here!</h1>
+            <div class="field">
+              <div class="control">
+                <input id="searchInput" class="input" type="text" placeholder="Enter name here">
+              </div>
+            </div>
+            
+            <div class="field">
+              <div class="control">
+                  <button onclick="searchButton()" class="button-33" role="button">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--YouTube video-->
+          <div class="tile is-child box has-background-grey-darker shadow">
+            <iframe id="youtube" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+
+
+        <!--wikipedia-->
+        <div class="tile is-parent">
+          <div class="tile is-child box has-background-grey-darker shadow">
+            <div class="message">
+              <div class="message-header title">Wikipedia</div>
+              <p id="wikiText"></p>
+          </div>
+        </div>
+  </div>
+</section>
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>© 2022 Team Coding Lizards</p>
+  </div>
+</footer>
+
+
 </body>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src= "./assets/javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src= "./assets/javascript/script.js"></script>
 </html>
