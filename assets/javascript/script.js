@@ -4,6 +4,7 @@ let searchInput = document.getElementById('searchInput')
 
 //Youtube API that takes whats in the search bar and gets the latest youtube video from that Youtube Channel
 function searchButton(){
+  youtubeVideo.src = ''
   let input = searchInput.value
   const options = {
     method: 'GET',
@@ -16,14 +17,24 @@ function searchButton(){
   fetch('https://youtube138.p.rapidapi.com/search/?q=' + input + '&hl=en&gl=US', options)
     .then(response => response.json())
     .then(function(data) {
-      let youtubeChannel = data.contents[0].channel.channelId 
-      fetch('https://youtube138.p.rapidapi.com/channel/videos/?id=' + youtubeChannel + '&filter=uploads_latest&hl=en&gl=US', options)
-        .then(response => response.json())
-        .then(function(data) {
-          let videoId = data.contents[0].video.videoId
-          youtubeVideo.src = 'https://www.youtube.com/embed/' + videoId
-        })
-
+      try {
+        let youtubeChannel = data.contents[0].video.author.channelId 
+        fetch('https://youtube138.p.rapidapi.com/channel/videos/?id=' + youtubeChannel + '&filter=uploads_latest&hl=en&gl=US', options)
+          .then(response => response.json())
+          .then(function(data) {
+            let videoId = data.contents[0].video.videoId
+            youtubeVideo.src = 'https://www.youtube.com/embed/' + videoId
+          })
+      }
+      catch(err) {
+        let youtubeChannel = data.contents[0].channel.channelId 
+        fetch('https://youtube138.p.rapidapi.com/channel/videos/?id=' + youtubeChannel + '&filter=uploads_latest&hl=en&gl=US', options)
+          .then(response => response.json())
+          .then(function(data) {
+            let videoId = data.contents[0].video.videoId
+            youtubeVideo.src = 'https://www.youtube.com/embed/' + videoId
+          })
+    }
       })
 
 
