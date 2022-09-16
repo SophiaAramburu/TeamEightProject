@@ -34,22 +34,23 @@
             <h1 class="title">Search for a YouTuber Here!</h1>
             <div class="field">
               <div class="control">
-                <input class="input" type="text" placeholder="Enter name here">
+
+                <input id="searchInput" class="input" type="text" placeholder="Enter name here">
               </div>
             </div>
-            
             <div class="field">
               <div class="control">
-                  <button class="button-33" role="button">Search</button>
+                  <button onclick="searchButton()" class="button-33" role="button">Search</button>
               </div>
             </div>
+
           </div>
         </div>
 
 
         <!--YouTube video-->
           <div class="tile is-child box has-background-grey-darker shadow">
-            <iframe src="https://www.youtube.com/embed/PFrIpSJhdQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="youtube" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </div>
 
@@ -59,9 +60,7 @@
           <div class="tile is-child box has-background-grey-darker shadow">
             <div class="message">
               <div class="message-header title">Wikipedia</div>
-              <div class="message-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, sequi, vel eveniet possimus mollitia deleniti ad sit assumenda autem incidunt error omnis, dolores maiores optio exercitationem iste. Eius, ullam quaerat.
-              </div>
-            </div>
+              <p id="wikiText"></p>
           </div>
         </div>
   </div>
