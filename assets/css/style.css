@@ -64,3 +64,12 @@ transform: scale(1.05) rotate(-0.5deg);
   padding: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  iframe {width: 45rem}
+  
+}
+
+@media screen and (min-width: 320px) {
+  iframe {width: 15rem}
+  
+}
