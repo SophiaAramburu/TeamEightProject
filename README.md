@@ -1,13 +1,12 @@
 # TeamEightProject
-
-## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+## What was your motivation?
+- Our motivation was to create a helpful application that will show users their favorite Youtuber's videos while simultaneously bringing up information about them on wikipedia. We thought that it was a unique idea for a duel search engine.  
+## Why did you build this project?
+- We built this project because we wanted to practice the skills we have learned so far with JavaScript, HTML, API's, JSON, CSS frameworks, and more. While at the same time, having fun creating a functioning application for searching 2 things at once.  
+## What problem does it solve?
+- Our project solves the problem of having to open a separate tab to research the YouTuber whose videos you are watching- Showing you all you need to know about them while remaining on the same page. 
+## What did you learn?
+- We learned how to communicate and work as a group to create a fully functioning application. We also learned more about how API's worked in this project and about other CSS frameworks such as Bulma. 
 
 ```md
 As a researcher
