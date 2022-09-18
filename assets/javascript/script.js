@@ -2,14 +2,22 @@ let youtubeVideo = document.getElementById('youtube')
 let wikiText = document.getElementById('wikiText')
 let searchInput = document.getElementById('searchInput')
 
+if (localStorage.getItem('storedYoutuber') != null) {
+  searchInput.value = localStorage.getItem('storedYoutuber')
+  searchButton()
+}
+
 //Youtube API that takes whats in the search bar and gets the latest youtube video from that Youtube Channel
 function searchButton(){
   youtubeVideo.src = ''
   let input = searchInput.value
+
+  localStorage.setItem('storedYoutuber', input)
+
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': 'cb65ae96c0msh34e667b0d321265p1fa084jsn185661bacbdd',
+      'X-RapidAPI-Key': 'f436412025msh0b9dc2279f98629p12bec8jsnd2213f85c072',
       'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
   };
