@@ -8,11 +8,6 @@
 ## What did you learn?
 - We learned how to communicate and work as a group to create a fully functioning application. We also learned more about how API's worked in this project and about other CSS frameworks such as Bulma. 
 
-```md
-As a researcher
-I want to be able to view certain YouTuber’s most recent videos while simultaneously viewing information regarding that YouTuber from Wikipedia. 
-So that I could learn more
-```
 
 
 ## Table of Contents
