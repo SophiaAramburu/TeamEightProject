@@ -1,4 +1,4 @@
-# TeamEightProject
+# WikiTube
 ## What was your motivation?
 - Our motivation was to create a helpful application that will show users their favorite Youtuber's videos while simultaneously bringing up information about them on wikipedia. We thought that it was a unique idea for a duel search engine.  
 ## Why did you build this project?
