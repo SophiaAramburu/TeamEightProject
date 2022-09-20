@@ -14,8 +14,6 @@ I want to be able to view certain YouTuber’s most recent videos while simultan
 So that I could learn more
 ```
 
-## Table of Contents (Optional)
-
 Link: https://SophiaAramburu.github.io/TeamEightProject/
 
 - [Installation](#installation)
