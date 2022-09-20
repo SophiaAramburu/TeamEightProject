@@ -14,9 +14,9 @@ I want to be able to view certain YouTuber’s most recent videos while simultan
 So that I could learn more
 ```
 
-Link: https://SophiaAramburu.github.io/TeamEightProject/
-## Table of Contents
 
+## Table of Contents
+Link: https://SophiaAramburu.github.io/TeamEightProject/
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -28,14 +28,7 @@ Link: https://SophiaAramburu.github.io/TeamEightProject/
 To look at our page click the link in our Table of Contents above!
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+```
 To search for a youtuber, put the youtuber's channel name into the search bar and click the button
 ![Arrow pointing where to input your youtuber](assets/images/info2.png)
 Then your search result will bring up their latest video and the wikipedia information about them
@@ -71,7 +64,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections
 ## Features
 
 - Youtuber Search Engine
