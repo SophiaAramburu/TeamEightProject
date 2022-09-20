@@ -23,7 +23,7 @@ Link: https://SophiaAramburu.github.io/TeamEightProject/
 To look at our page click the link in our Table of Contents above!
 
 ## Usage
-```
+
 To search for a youtuber, put the youtuber's channel name into the search bar and click the button
 ![Arrow pointing where to input your youtuber](assets/images/info2.png)
 Then your search result will bring up their latest video and the wikipedia information about them
