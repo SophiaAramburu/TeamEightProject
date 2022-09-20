@@ -15,6 +15,7 @@ So that I could learn more
 ```
 
 Link: https://SophiaAramburu.github.io/TeamEightProject/
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -51,7 +52,7 @@ Then your search result will bring up their latest video and the wikipedia infor
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2022] [Sophia Aramburu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
