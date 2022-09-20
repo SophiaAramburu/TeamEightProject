@@ -11,7 +11,7 @@
 
 
 ## Table of Contents
-Link: https://SophiaAramburu.github.io/TeamEightProject/
+Link: https://SophiaAramburu.github.io/WikiTube/
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
