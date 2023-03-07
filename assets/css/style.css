@@ -52,11 +52,12 @@ transform: scale(1.05) rotate(-0.5deg);
 }
 
 .header {
-  padding: 30px;
   text-align: center;
   background: linear-gradient(#e66465);
-  color: white;
-  font-size: 30px;
+}
+
+.wikipadding {
+  padding: 20px;
 }
 
 .footer {
